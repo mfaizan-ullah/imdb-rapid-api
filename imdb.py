@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 conn = http.client.HTTPSConnection("imdb8.p.rapidapi.com")
 
 headers = {
-    'x-rapidapi-key': "e2e672d7a1msh0d8c6e6fc41552dp123d66jsnbbdcedb777cb",
+    'x-rapidapi-key': "<"YOUR KEY...!!!">",
     'x-rapidapi-host': "imdb8.p.rapidapi.com"
     }
 conn.request("GET", "/title/get-most-popular-movies?homeCountry=GB&purchaseCountry=GB&currentCountry=GB", headers=headers)
